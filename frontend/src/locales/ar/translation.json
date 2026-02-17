@@ -1,0 +1,60 @@
+{
+  "app": {
+    "name": "أمانة - الحوكمة والمخاطر والامتثال",
+    "tagline": "الحوكمة والمخاطر والامتثال"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "username": "اسم المستخدم",
+    "password": "كلمة المرور",
+    "welcomeBack": "مرحباً بعودتك",
+    "pleaseLogin": "الرجاء تسجيل الدخول للمتابعة"
+  },
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "compliance": "الامتثال",
+    "risks": "سجل المخاطر",
+    "audits": "التدقيق",
+    "settings": "الإعدادات"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "complianceScore": "درجة الامتثال",
+    "openRisks": "المخاطر المفتوحة",
+    "pendingAudits": "التدقيقات المعلقة",
+    "overview": "نظرة عامة"
+  },
+  "compliance": {
+    "title": "إدارة الامتثال",
+    "controls": "الضوابط",
+    "evidence": "الأدلة",
+    "status": "الحالة",
+    "implemented": "مُنفذ",
+    "partiallyImplemented": "مُنفذ جزئياً",
+    "notImplemented": "غير مُنفذ"
+  },
+  "risks": {
+    "title": "سجل المخاطر",
+    "addRisk": "إضافة مخاطرة",
+    "riskId": "معرف المخاطرة",
+    "title_label": "العنوان",
+    "impact": "التأثير",
+    "likelihood": "الاحتمالية",
+    "riskLevel": "مستوى المخاطرة",
+    "treatment": "المعالجة",
+    "status": "الحالة"
+  },
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "view": "عرض",
+    "search": "بحث",
+    "filter": "تصفية",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجح"
+  }
+}

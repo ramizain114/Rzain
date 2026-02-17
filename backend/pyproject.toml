@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "amana-grc-backend"
+version = "0.1.0"
+description = "Amana-GRC Backend API"
+authors = ["Your Team"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.5"
+uvicorn = {extras = ["standard"], version = "^0.32.1"}
+beanie = "^1.27.0"
+pydantic = "^2.10.3"
+pydantic-settings = "^2.6.1"
+redis = "^5.2.0"
+PyJWT = "^2.10.1"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-multipart = "^0.0.20"
+ldap3 = "^2.9.1"
+httpx = "^0.28.1"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+pytest-asyncio = "^0.24.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

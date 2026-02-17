@@ -1,0 +1,60 @@
+{
+  "app": {
+    "name": "Amana-GRC",
+    "tagline": "Governance, Risk, and Compliance"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "username": "Username",
+    "password": "Password",
+    "welcomeBack": "Welcome Back",
+    "pleaseLogin": "Please login to continue"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "compliance": "Compliance",
+    "risks": "Risk Register",
+    "audits": "Audits",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "complianceScore": "Compliance Score",
+    "openRisks": "Open Risks",
+    "pendingAudits": "Pending Audits",
+    "overview": "Overview"
+  },
+  "compliance": {
+    "title": "Compliance Management",
+    "controls": "Controls",
+    "evidence": "Evidence",
+    "status": "Status",
+    "implemented": "Implemented",
+    "partiallyImplemented": "Partially Implemented",
+    "notImplemented": "Not Implemented"
+  },
+  "risks": {
+    "title": "Risk Register",
+    "addRisk": "Add Risk",
+    "riskId": "Risk ID",
+    "title_label": "Title",
+    "impact": "Impact",
+    "likelihood": "Likelihood",
+    "riskLevel": "Risk Level",
+    "treatment": "Treatment",
+    "status": "Status"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  }
+}
