@@ -4,6 +4,7 @@ import LoginPage from './pages/LoginPage'
 import DashboardPage from './pages/DashboardPage'
 import CompliancePage from './pages/CompliancePage'
 import RiskRegisterPage from './pages/RiskRegisterPage'
+import AuditPage from './pages/AuditPage'
 import AppShell from './components/layout/AppShell'
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
@@ -31,6 +32,7 @@ function App() {
                   <Route path="/dashboard" element={<DashboardPage />} />
                   <Route path="/compliance" element={<CompliancePage />} />
                   <Route path="/risks" element={<RiskRegisterPage />} />
+                  <Route path="/audits" element={<AuditPage />} />
                 </Routes>
               </AppShell>
             </ProtectedRoute>
