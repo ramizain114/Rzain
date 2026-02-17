@@ -24,6 +24,12 @@ httpx==0.28.1
 # CORS
 python-jose[cryptography]==3.3.0
 
+# File handling
+aiofiles==24.1.0
+
+# Email (for notifications)
+aiosmtplib==3.0.2
+
 # Testing
 pytest==8.3.4
 pytest-asyncio==0.24.0
